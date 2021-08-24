@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="col-50" layout="row" layout-align="center center">
+      <oreo-app-oreo-list
+        [oreos]="oreos$ | async"
+        (selected)="selectedOreo($event)"
+        (deleted)="deleteOreo($event)"
+      ></oreo-app-oreo-list>
+    </div>
+    <div class="col-50" layout="row" layout-align="center center">
+      <oreo-app-oreo-details
+        [form]="form"
+        [oreo]="selectedOreo$ | async"
+        (save)="saveOreo($event)"
+        (cancelled)="cancel()"
+      ></oreo-app-oreo-details>
+    </div>
+  </div>

@@ -13,9 +13,17 @@
     "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
+    "noImplicitAny": false,
+    "strictPropertyInitialization": false,
     "baseUrl": ".",
     "paths": {
-      "@oreo-app/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@oreo-app/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@oreo-app/core-data": ["libs/core-data/src/index.ts"],
+      "@oreo-app/core-state": ["libs/core-state/src/index.ts"],
+      "@oreo-app/environment": ["libs/environment/src/index.ts"],
+      "@oreo-app/material": ["libs/material/src/index.ts"],
+      "@oreo-app/theme": ["libs/theme/src/index.ts"],
+      "@oreo-app/ui-login": ["libs/ui-login/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

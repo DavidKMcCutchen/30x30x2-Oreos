@@ -1,0 +1,11 @@
+{
+    "oreos": [
+        {
+        "id": 1,
+        "title": "Hazelnut Chocolate Oreos",
+        "description": "These Oreos include a chocolate-hazelnut cream in between two cookies",
+        "deliciousness": 85,
+        "seasonal": true
+        }
+    ]
+}
